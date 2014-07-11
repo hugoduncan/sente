@@ -26,6 +26,8 @@
    [org.clojure/core.match    "0.2.1"]  ; Optional but quite handly
    ;; [ring-anti-forgery      "0.3.0"]  ; Buggy
    [com.taoensso.forks/ring-anti-forgery "0.3.1"]  ; Optional, for easy CSRF protection
+   ;;
+   [fogus/ring-edn "0.2.0"] ; For the synced-mouse example
    ]
 
   :plugins
